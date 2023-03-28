@@ -96,6 +96,7 @@ class MWSnackBarScreenState extends State<MWSnackBarScreen> {
                     content: Text('This is Floating SnackBar',
                         style: primaryTextStyle(color: Colors.white)),
                     behavior: SnackBarBehavior.floating,
+
                   ));
                 } else if (index == 5) {
                   scaffoldKey.currentState.hideCurrentSnackBar();
